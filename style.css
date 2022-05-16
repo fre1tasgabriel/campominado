@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+* {
+    font-family: 'Tapestry', cursive;
+  }
+
+  body {
+    background-image: url(https://classic.exame.com/wp-content/uploads/2020/08/GettyImages-955124060.jpg?quality=70&strip=info&w=1024);
+    background-repeat: no-repeat;
+
+    background-size: cover;
+}
+  
+  h1 {
+      text-align: center;
+      color: white;
+      font-size: 4em;
+    }
+
+  #contador {
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-size: 2em;
+  }
+
+  div {
+      text-align: center;
+  }
+  table {
+      margin: 1em auto;
+      border-collapse: collapse;
+  }
+  td {
+      border: 1px solid black;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+  }
+
+  td:active {
+      transform: scale(0.9);
+  }
+
+  label {
+      font-size: 1.5em;
+      background-color: #bf2a23;
+      border-radius: 5px;
+      color: white;
+  }
+
+  select {
+      padding: 5px;
+      border-radius: 5px;
+  }
+
+  button{
+	padding: 5px;
+	border: 0;
+    border-radius: 5px;
+	border-bottom: 3px solid #8a211d;
+	font-size: 1.2em;
+	cursor: pointer;
+	margin: 0;
+	color: #fff;
+	background-color:#bf2a23;
+	width: 10%;
+}
+
+    button:hover {
+        background-color: white;
+        color: #bf2a23;
+    }
+
+  .blocked, .flag {
+      background: lightgray;    
+  }
+  .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8 {
+      background-color: #eee;
+  }
+  .n1 {
+      color: blue;
+  }
+  .n2 {
+      color: green;
+  }
+  .n3 {
+      color: red;
+  }
+  .n4 {
+      color: maroon;
+  }
+  .n5 {
+      color: blueviolet;
+  }
+  .n6 {
+      color: darkgoldenrod;
+  }
+  .n7 {
+      color: orange;
+  }
+  .n8 {
+      color: tomato;
+  }
